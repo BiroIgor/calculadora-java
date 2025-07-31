@@ -45,6 +45,7 @@ public class Teclado extends JPanel {
         add(new Botao("0"));
         add(new Botao(""));  // espaço vazio
         add(new Botao(","));
+        add(new Botao("%"));
         add(new Botao("="));
     }
 }

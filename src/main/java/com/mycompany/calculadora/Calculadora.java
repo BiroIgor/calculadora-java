@@ -21,7 +21,7 @@ public class Calculadora extends JFrame{
         
         // Definir cor de fundo da janela
         getContentPane().setBackground(new Color(20, 20, 20));
-
+        
         // Criar e adicionar componentes
         display = new Display();
         teclado = new Teclado();
