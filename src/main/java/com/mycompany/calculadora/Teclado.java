@@ -1,16 +1,18 @@
 package com.mycompany.calculadora;
 
 import javax.swing.JPanel;
-import java.awt.Color;
 import java.awt.GridLayout;
+import java.awt.Color;
+import javax.swing.BorderFactory;
 
 @SuppressWarnings("serial") 
 public class Teclado extends JPanel {
 
     public Teclado() {
-        setBackground(Color.DARK_GRAY);
-        setLayout(new GridLayout(5, 4, 3, 3)); // 5 linhas, 4 colunas, espaçamento 3px
-        
+        setBackground(new Color(20, 20, 20)); // Fundo escuro
+        setLayout(new GridLayout(5, 4, 2, 2)); // 5 linhas, 4 colunas, espaçamento 2px
+        setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5)); // Margem interna
+
         adicionarBotoes();
     }
     
